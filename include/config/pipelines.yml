@@ -1,0 +1,12 @@
+pipelines:
+  - name: weather_newyork
+    schedule: "0 * * * *"
+    latitude: 40.7128
+    longitude: -74.0060
+    timezone: "America/New_York"
+
+  - name: weather_texas_city
+    schedule: "15 * * * *"
+    latitude: 29.3838
+    longitude: -94.9027
+    timezone: "America/Chicago"
