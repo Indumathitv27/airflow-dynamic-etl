@@ -1,4 +1,4 @@
-# Dynamic Airflow ETL – YAML-Driven Data Pipeline
+# Dynamic Airflow ETL – YAML-Driven DAGs
 
 This project demonstrates a production-style, configurable ETL framework built with Apache Airflow. 
 Pipelines are defined using YAML and dynamically generate DAGs to ingest, transform, validate, and monitor data.
